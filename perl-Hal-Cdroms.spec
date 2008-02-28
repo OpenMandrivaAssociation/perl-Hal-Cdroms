@@ -12,7 +12,7 @@ Group:		Development/Perl
 Source:		http://search.cpan.org/CPAN/authors/id/P/PI/PIXEL/%{module}-%{version}.tar.gz
 Url:		http://search.cpan.org/dist/%{module}
 Requires:	perl(Net::DBus)
-Buildrequires:	perl-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
 Buildarch:	noarch
 
