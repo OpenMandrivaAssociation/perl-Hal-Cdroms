@@ -1,6 +1,6 @@
 %define module	Hal-Cdroms
 %define name	perl-%{module}
-%define version	0.02
+%define version	0.03
 %define release	%mkrel 1
 
 Name:		%{name}
