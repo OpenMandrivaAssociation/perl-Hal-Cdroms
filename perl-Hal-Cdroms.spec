@@ -1,7 +1,7 @@
 %define module	Hal-Cdroms
 %define name	perl-%{module}
-%define version	0.03
-%define release	%mkrel 8
+%define version	0.04
+%define release	%mkrel 1
 
 Name:		%{name}
 Version:	%{version}
@@ -12,6 +12,8 @@ Group:		Development/Perl
 Source:		http://search.cpan.org/CPAN/authors/id/P/PI/PIXEL/%{module}-%{version}.tar.gz
 Url:		http://search.cpan.org/dist/%{module}
 Requires:	perl(Net::DBus)
+Requires:	udisks
+
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
 Buildarch:	noarch
