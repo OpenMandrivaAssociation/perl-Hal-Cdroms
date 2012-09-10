@@ -10,6 +10,7 @@ Source0:	http://search.cpan.org/CPAN/authors/id/P/PI/PIXEL/%{module}-%{version}.
 Url:		http://search.cpan.org/dist/%{module}
 Requires:	perl(Net::DBus)
 Requires:	udisks
+BuildRequires:	perl-devel
 Buildarch:	noarch
 
 %description
