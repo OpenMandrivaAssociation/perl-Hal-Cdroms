@@ -2,7 +2,7 @@
 
 Name:		perl-%{module}
 Version:	0.04
-Release:	1
+Release:	2
 Summary:	Access cdroms through HAL and D-Bus
 License:	GPL or Artistic
 Group:		Development/Perl
@@ -20,8 +20,8 @@ Access cdroms through HAL and D-Bus
 %setup -q -n %{module}-%{version}
 
 %build
-%{__perl} Makefile.PL INSTALLDIRS=vendor
-make
+perl Makefile.PL INSTALLDIRS=vendor
+%make
 
 %check
 make test
