@@ -2,7 +2,7 @@
 
 Name:		perl-%{module}
 Version:	0.04
-Release:	2
+Release:	3
 Summary:	Access cdroms through HAL and D-Bus
 License:	GPL or Artistic
 Group:		Development/Perl
