@@ -1,23 +1,23 @@
 %define module	Hal-Cdroms
 
+Summary:	Access cdroms through HAL and D-Bus
 Name:		perl-%{module}
 Version:	0.04
 Release:	3
-Summary:	Access cdroms through HAL and D-Bus
-License:	GPL or Artistic
+License:	GPLv2 or Artistic
 Group:		Development/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/P/PI/PIXEL/%{module}-%{version}.tar.gz
 Url:		http://search.cpan.org/dist/%{module}
+Source0:	http://search.cpan.org/CPAN/authors/id/P/PI/PIXEL/%{module}-%{version}.tar.gz
+Buildarch:	noarch
+BuildRequires:	perl-devel
 Requires:	perl(Net::DBus)
 Requires:	udisks
-BuildRequires:	perl-devel
-Buildarch:	noarch
 
 %description
 Access cdroms through HAL and D-Bus
 
 %prep
-%setup -q -n %{module}-%{version}
+%setup -qn %{module}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -32,4 +32,5 @@ make test
 %files 
 %doc Changes
 %{perl_vendorlib}/Hal/Cdroms*
-%{_mandir}/*/*
+%{_mandir}/man3/*
+
