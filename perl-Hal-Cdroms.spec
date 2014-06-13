@@ -3,7 +3,7 @@
 Summary:	Access cdroms through HAL and D-Bus
 Name:		perl-%{module}
 Version:	0.04
-Release:	7
+Release:	8
 License:	GPLv2 or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
