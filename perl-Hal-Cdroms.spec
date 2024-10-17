@@ -6,7 +6,7 @@ Version:	0.04
 Release:	12
 License:	GPLv2 or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{module}
+Url:		https://search.cpan.org/dist/%{module}
 Source0:	http://search.cpan.org/CPAN/authors/id/P/PI/PIXEL/%{module}-%{version}.tar.gz
 Buildarch:	noarch
 BuildRequires:	perl-devel
