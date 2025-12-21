@@ -9,6 +9,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/dist/%{module}
 Source0:	http://search.cpan.org/CPAN/authors/id/P/PI/PIXEL/%{module}-%{version}.tar.gz
 Buildarch:	noarch
+BuildRequires:	make
 BuildRequires:	perl-devel
 Requires:	perl(Net::DBus)
 Requires:	udisks
